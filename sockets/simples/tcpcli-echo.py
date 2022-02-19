@@ -1,6 +1,7 @@
 import socket
 
-HOST = '127.0.0.1'
+#HOST = '127.0.0.1'
+HOST = '192.168.189.10'
 PORT = 30020
 
 sockcli = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
